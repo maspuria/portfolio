@@ -2,7 +2,7 @@ package com.pluralsight.finance;
 
 public class House extends FixedAsset {
     //field
-    private int yearBuilt;
+    private final int yearBuilt;
     private int squareFeet;
     private int bedrooms;
 
