@@ -1,7 +1,7 @@
 package com.pluralsight.finance;
 
-public interface Valuables {
+public interface Valuable {
 
-    double getValue();
+    public double getValue();
 
 }
